@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    /* header*/
+    .header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+  background-color: aqua;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(171, 40, 40);
+}
+
+.img{
+    size: 20%;
+}
+
+body{
+    background-color: bisque;
+}
+
+.hey{
+    text-align: center;
+    margin: 25% 25% 25% 25%;
+}
+.hey:hover{
+    background-color: aqua;
+    border-radius: 25%;
+    size: fit-content;
+}
+
+.btn{
+    border-radius: 50%;
+    color: rgb(120, 12, 12);
+
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(215, 17, 17, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 5px;
+  size: 40%;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.sec1{
+    background-color: #0814b7;
+}
+
+.temp{
+    font-size: 40px;
+}
+</style>
+</head>
+<body>
+<div class="header" >welcome to my website</div>                                                            
+</div>
+
+
+
+ 
+ 
+ <ul class="items">
+    <li id="image"> <img class="img" width="50px" height="50px" src="culturalheritage.jpg"></li><li > &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;</li>
+ <li></li> <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+    <div class="temp">
+        <marquee style="background-color: red;"> WEBSITEE!!&hearts;</marquee>
+     
+    </div>
+<section class="sec1">
+    <div class="hey">
+
+        <h1> HEY !</h1>
+        <button id="btn"> LET'S GO</button>
+    </div>
+    
+</section>
+
+
+<section class="sec1">
+    <div class="card">
+        <img src="image_lab.jfif" alt="Avatar" style="width:fit-content">
+        <div class="container">
+          <h4><b>John Doe</b></h4>
+          <p>Architect & Engineer</p>
+        </div>
+      </div>
+
+</section>
+
+<section>
+   <h1 id="glow"></h1> this is a glowing text
+</section>
+
+<section>
+    <video width="80%" height="300" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+</section>
+
+</body>
+</html>
+
+
